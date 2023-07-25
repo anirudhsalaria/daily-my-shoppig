@@ -1,7 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   darkMode: "class",
   theme: {
@@ -88,10 +90,7 @@ module.exports = {
     extend: {
       colors:{
         "dark-purple" : "#081A51",
-        "light-white": "rgba(255,255,255,0.17)",
-        "zinc-800": "#333333",
-        "stone-50": "#F8F8F8",
-        "orange-500": "#FF6C0A"
+        "light-white": "rgba(255,255,255,0.17)"
       },
 
       borderRadius: {
@@ -133,5 +132,5 @@ module.exports = {
   // 	display: ['children', 'children-not'],
   // },
   plugins: [],
-}
+};
 
