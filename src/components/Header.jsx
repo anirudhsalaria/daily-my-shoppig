@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <div className='border p-3 w-full bg-jacarta-900  text-white flex '>
+        <div className='p-3 w-full bg-jacarta-900  text-white flex '>
             <div className='flex gap-10'>
             <div className='flex gap-1'>
                 <div className='flex'>
