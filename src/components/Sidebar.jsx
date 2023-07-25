@@ -17,9 +17,9 @@ const Sidebar = () => {
                 </div>
             </div>
 
-            <div className='border border-white p-4'>
-                <div className='flex border border-white p-1 gap-2'>
-                    <div className='border border-white'>
+            <div className='border-t border-neutral-900 p-4'>
+                <div className='flex  p-1 gap-2'>
+                    <div className=''>
                         <svg width="16" height="16" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g id="darhboard">
                                 <rect id="Rectangle 34" x="3" y="3" width="4.5" height="4.5" rx="1" stroke="white" stroke-width="2" strokeLinejoin="round" />
@@ -29,7 +29,7 @@ const Sidebar = () => {
                             </g>
                         </svg>
                     </div>
-                    <div className='text-sm border border-white'>Dashboard</div>
+                    <div className='text-sm '>Dashboard</div>
                     <div className='ml-auto'>
                         <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g id="Expand_up">
@@ -39,7 +39,24 @@ const Sidebar = () => {
                     </div>
                 </div>
 
-                <div></div>
+                <div className='text-sm  py-2 px-7'>
+                    Commarce
+                </div>
+                <div className='text-sm  py-2 px-7'>
+                    Analytics
+                </div>
+                <div className='text-sm  py-2 px-7'>
+                    Cyrpto
+                </div>
+                <div className='text-sm py-2 px-7'>
+                    Helpdesk
+                </div>
+                <div className='text-sm  py-2 px-7'>
+                    Monitoring
+                </div>
+                <div className='text-sm  py-2 px-7 border-b border-neutral-900'>
+                    Fitnes
+                </div>
 
             </div>
         </div>
