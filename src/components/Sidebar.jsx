@@ -17,7 +17,7 @@ const Sidebar = () => {
                 </div>
             </div>
 
-            <div className='border-t border-neutral-900 p-4'>
+            <div className=' border-y border-neutral-900 p-4 '>
                 <div className='flex  p-1 gap-2'>
                     <div className=''>
                         <svg width="16" height="16" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -54,10 +54,152 @@ const Sidebar = () => {
                 <div className='text-sm  py-2 px-7'>
                     Monitoring
                 </div>
-                <div className='text-sm  py-2 px-7 border-b border-neutral-900'>
+                <div className='text-sm  py-2 px-7 '>
                     Fitnes
                 </div>
 
+
+            </div>
+
+            <div className='flex p-1 gap-2 border-b border-neutral-900 py-3 px-4'>
+                <div>
+                    <svg width="16" height="16" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="darhboard">
+                            <rect id="Rectangle 34" x="3" y="3" width="4.5" height="4.5" rx="1" stroke="white" stroke-width="2" strokeLinejoin="round" />
+                            <rect id="Rectangle 35" x="3" y="10.5" width="4.5" height="4.5" rx="1" stroke="white" stroke-width="2" strokeLinejoin="round" />
+                            <rect id="Rectangle 36" x="10.5" y="10.5" width="4.5" height="4.5" rx="1" stroke="white" stroke-width="2" strokeLinejoin="round" />
+                            <rect id="Rectangle 37" x="10.5" y="3" width="4.5" height="4.5" rx="1" stroke="white" stroke-width="2" strokeLinejoin="round" />
+                        </g>
+                    </svg>
+                </div>
+                <div className='text-sm'>Application</div>
+                <div className='ml-auto'>
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Expand_down">
+                            <path id="Vector 9" d="M13.5 6.75L9 11.25L4.5 6.75" stroke="white" stroke-width="2" />
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <div className='flex p-1 gap-2 border-b border-neutral-900 py-3 px-4'>
+                <div>
+                    <svg width="16" height="16" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="darhboard">
+                            <rect id="Rectangle 34" x="3" y="3" width="4.5" height="4.5" rx="1" stroke="white" stroke-width="2" strokeLinejoin="round" />
+                            <rect id="Rectangle 35" x="3" y="10.5" width="4.5" height="4.5" rx="1" stroke="white" stroke-width="2" strokeLinejoin="round" />
+                            <rect id="Rectangle 36" x="10.5" y="10.5" width="4.5" height="4.5" rx="1" stroke="white" stroke-width="2" strokeLinejoin="round" />
+                            <rect id="Rectangle 37" x="10.5" y="3" width="4.5" height="4.5" rx="1" stroke="white" stroke-width="2" strokeLinejoin="round" />
+                        </g>
+                    </svg>
+                </div>
+                <div className='text-sm'>Elements</div>
+                <div className='ml-auto'>
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Expand_down">
+                            <path id="Vector 9" d="M13.5 6.75L9 11.25L4.5 6.75" stroke="white" stroke-width="2" />
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <div className='flex p-1 gap-2 border-b border-neutral-900 py-3 px-4'>
+                <div>
+                    <svg width="16" height="16" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="darhboard">
+                            <rect id="Rectangle 34" x="3" y="3" width="4.5" height="4.5" rx="1" stroke="white" stroke-width="2" strokeLinejoin="round" />
+                            <rect id="Rectangle 35" x="3" y="10.5" width="4.5" height="4.5" rx="1" stroke="white" stroke-width="2" strokeLinejoin="round" />
+                            <rect id="Rectangle 36" x="10.5" y="10.5" width="4.5" height="4.5" rx="1" stroke="white" stroke-width="2" strokeLinejoin="round" />
+                            <rect id="Rectangle 37" x="10.5" y="3" width="4.5" height="4.5" rx="1" stroke="white" stroke-width="2" strokeLinejoin="round" />
+                        </g>
+                    </svg>
+                </div>
+                <div className='text-sm'>Forms</div>
+                <div className='ml-auto'>
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Expand_down">
+                            <path id="Vector 9" d="M13.5 6.75L9 11.25L4.5 6.75" stroke="white" stroke-width="2" />
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <div className='flex p-1 gap-2 border-b border-neutral-900 py-3 px-4'>
+                <div>
+                    <svg width="16" height="16" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="darhboard">
+                            <rect id="Rectangle 34" x="3" y="3" width="4.5" height="4.5" rx="1" stroke="white" stroke-width="2" strokeLinejoin="round" />
+                            <rect id="Rectangle 35" x="3" y="10.5" width="4.5" height="4.5" rx="1" stroke="white" stroke-width="2" strokeLinejoin="round" />
+                            <rect id="Rectangle 36" x="10.5" y="10.5" width="4.5" height="4.5" rx="1" stroke="white" stroke-width="2" strokeLinejoin="round" />
+                            <rect id="Rectangle 37" x="10.5" y="3" width="4.5" height="4.5" rx="1" stroke="white" stroke-width="2" strokeLinejoin="round" />
+                        </g>
+                    </svg>
+                </div>
+                <div className='text-sm'>Plugins</div>
+                <div className='ml-auto'>
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Expand_down">
+                            <path id="Vector 9" d="M13.5 6.75L9 11.25L4.5 6.75" stroke="white" stroke-width="2" />
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <div className='flex p-1 gap-2 border-b border-neutral-900 py-3 px-4'>
+                <div>
+                    <svg width="16" height="16" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="darhboard">
+                            <rect id="Rectangle 34" x="3" y="3" width="4.5" height="4.5" rx="1" stroke="white" stroke-width="2" strokeLinejoin="round" />
+                            <rect id="Rectangle 35" x="3" y="10.5" width="4.5" height="4.5" rx="1" stroke="white" stroke-width="2" strokeLinejoin="round" />
+                            <rect id="Rectangle 36" x="10.5" y="10.5" width="4.5" height="4.5" rx="1" stroke="white" stroke-width="2" strokeLinejoin="round" />
+                            <rect id="Rectangle 37" x="10.5" y="3" width="4.5" height="4.5" rx="1" stroke="white" stroke-width="2" strokeLinejoin="round" />
+                        </g>
+                    </svg>
+                </div>
+                <div className='text-sm'>Elements</div>
+                <div className='ml-auto'>
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Expand_down">
+                            <path id="Vector 9" d="M13.5 6.75L9 11.25L4.5 6.75" stroke="white" stroke-width="2" />
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <div className='flex p-1 gap-2 border-b border-neutral-900 py-3 px-4'>
+                <div>
+                    <svg width="16" height="16" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="darhboard">
+                            <rect id="Rectangle 34" x="3" y="3" width="4.5" height="4.5" rx="1" stroke="white" stroke-width="2" strokeLinejoin="round" />
+                            <rect id="Rectangle 35" x="3" y="10.5" width="4.5" height="4.5" rx="1" stroke="white" stroke-width="2" strokeLinejoin="round" />
+                            <rect id="Rectangle 36" x="10.5" y="10.5" width="4.5" height="4.5" rx="1" stroke="white" stroke-width="2" strokeLinejoin="round" />
+                            <rect id="Rectangle 37" x="10.5" y="3" width="4.5" height="4.5" rx="1" stroke="white" stroke-width="2" strokeLinejoin="round" />
+                        </g>
+                    </svg>
+                </div>
+                <div className='text-sm'>Datagrid</div>
+                <div className='ml-auto'>
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Expand_down">
+                            <path id="Vector 9" d="M13.5 6.75L9 11.25L4.5 6.75" stroke="white" stroke-width="2" />
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <div className='flex p-1 gap-2 border-b border-neutral-900 py-3 px-4'>
+                <div>
+                    <svg width="16" height="16" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="darhboard">
+                            <rect id="Rectangle 34" x="3" y="3" width="4.5" height="4.5" rx="1" stroke="white" stroke-width="2" strokeLinejoin="round" />
+                            <rect id="Rectangle 35" x="3" y="10.5" width="4.5" height="4.5" rx="1" stroke="white" stroke-width="2" strokeLinejoin="round" />
+                            <rect id="Rectangle 36" x="10.5" y="10.5" width="4.5" height="4.5" rx="1" stroke="white" stroke-width="2" strokeLinejoin="round" />
+                            <rect id="Rectangle 37" x="10.5" y="3" width="4.5" height="4.5" rx="1" stroke="white" stroke-width="2" strokeLinejoin="round" />
+                        </g>
+                    </svg>
+                </div>
+                <div className='text-sm'>Settings</div>
+                <div className='ml-auto'>
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Expand_down">
+                            <path id="Vector 9" d="M13.5 6.75L9 11.25L4.5 6.75" stroke="white" stroke-width="2" />
+                        </g>
+                    </svg>
+                </div>
             </div>
         </div>
     )
