@@ -47,6 +47,7 @@ module.exports = {
         800: "#101436",
         900: "#0D102D",
       },
+
     },
     boxShadow: {
       none: "none",
@@ -90,7 +91,10 @@ module.exports = {
     extend: {
       colors:{
         "dark-purple" : "#081A51",
-        "light-white": "rgba(255,255,255,0.17)"
+        "light-white": "rgba(255,255,255,0.17)",
+        "neutral-900": "#171717",
+        "gray-900": "#111827",
+        "neutral-800": "#262626"
       },
 
       borderRadius: {
