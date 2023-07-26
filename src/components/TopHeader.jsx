@@ -4,7 +4,7 @@ const TopHeader = () => {
     return (
         <div className='border bg-white md:flex sm:inline-block p-4 gap-8'>
             <div className='font-semibold text-lg text-neutral-800 my-auto'>Add new post</div>
-            <div className='flex text-neutral-800'>
+            <div className='flex text-neutral-800 gap-1'>
                 <div className='m-auto'>
                     <svg width="20" height="20" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="u:plus">
@@ -15,7 +15,7 @@ const TopHeader = () => {
                 <div className='text-sm m-auto'>Add Content</div>
             </div>
 
-            <div className='flex text-neutral-800'>
+            <div className='flex text-neutral-800 gap-1'>
                 <div className='m-auto'>
 
                     <svg width="20" height="20" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -28,7 +28,7 @@ const TopHeader = () => {
             </div>
 
             <div className='ml-auto '>
-                <input className='w-[350px] h-8 p-2.5 bg-white rounded-[5px] border border-neutral-300 justify-between items-center gap-[29px] inline-flex' type="search" name="search" id="sea" />
+                <input className='w-[350px] h-8 p-2.5 bg-white rounded-[5px] border border-neutral-300 justify-between items-center gap-[29px] inline-flex' type="search" name="search" id="sea" placeholder='Search content..'/>
             </div>
         </div>
     )
