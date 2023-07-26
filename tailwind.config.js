@@ -94,7 +94,8 @@ module.exports = {
         "light-white": "rgba(255,255,255,0.17)",
         "neutral-900": "#171717",
         "gray-900": "#111827",
-        "neutral-800": "#262626"
+        "neutral-800": "#262626",
+        "neutral-100": "#F5F5F5"
       },
 
       borderRadius: {
